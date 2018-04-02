@@ -18,5 +18,5 @@
 <html lang="en-US">
 <head>
 	<script>alert("Thanks for reaching out!");</script>
-	<meta HTTP-EQUIV="REFRESH" content="0; url=noxor.io">
+	<meta HTTP-EQUIV="REFRESH" content="0; url=http://noxor.io">
 </head>
