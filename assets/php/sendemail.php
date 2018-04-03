@@ -6,7 +6,7 @@
 	$message = @trim(stripslashes($_POST['message']));
 
 	$email_from = $email;
-	$email_to = 'jobs@noxor.io'; //replace with your email
+	$email_to = 'jobs@noxor.io';
 
 	$body = 'Name: ' . $name . "\n\n" . 'Email: ' . $email . "\n\n" . 'Subject: ' . $subject . "\n\n" . 'Message: ' . $message;
 
@@ -18,5 +18,5 @@
 <html lang="en-US">
 <head>
 	<script>alert("Thanks for reaching out!");</script>
-	<meta HTTP-EQUIV="REFRESH" content="0; url=http://noxor.io">
+	<!-- <meta HTTP-EQUIV="REFRESH" content="0; url=http://noxor.io"> -->
 </head>
