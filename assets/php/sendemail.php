@@ -1,3 +1,4 @@
+#!/usr/bin/php
 <?php
 
 	$name = @trim(stripslashes($_POST['name']));
@@ -25,3 +26,4 @@
 	<script>alert("Thanks for reaching out!");</script>
 	<meta HTTP-EQUIV="REFRESH" content="0; url=http://noxor.io">
 </head>
+<html>
